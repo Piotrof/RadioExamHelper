@@ -1,0 +1,101 @@
+{
+  "name": "Radio Exam Helper",
+  "short_name": "RadioExam",
+  "description": "Study for your Polish amateur radio exam with Q-codes flashcards and phonetic alphabet trainer",
+  "start_url": "/RadioExamHelper/",
+  "scope": "/RadioExamHelper/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/RadioExamHelper/icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/RadioExamHelper/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Q-Codes",
+      "short_name": "Q-Codes",
+      "description": "Study Q-codes flashcards",
+      "url": "/RadioExamHelper/qcodes",
+      "icons": [
+        {
+          "src": "/RadioExamHelper/icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Phonetic Alphabets",
+      "short_name": "Phonetic",
+      "description": "Practice phonetic alphabets",
+      "url": "/RadioExamHelper/phonetic",
+      "icons": [
+        {
+          "src": "/RadioExamHelper/icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "short_name": "Stats",
+      "description": "View your progress",
+      "url": "/RadioExamHelper/stats",
+      "icons": [
+        {
+          "src": "/RadioExamHelper/icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

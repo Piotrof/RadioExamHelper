@@ -1,0 +1,51 @@
+{
+  "name": "radio-exam-helper",
+  "version": "1.0.0",
+  "description": "Amateur Radio Study App for Polish exam - Q-codes and phonetic alphabets trainer",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run build:data && astro build && npm run build:pwa",
+    "build:data": "node scripts/build_data.mjs",
+    "build:pwa": "node scripts/build_pwa.mjs",
+    "preview": "astro preview",
+    "fetch-qcodes": "node scripts/fetch_qcodes.mjs",
+    "astro": "astro",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.3",
+    "@astrojs/react": "3.6.2",
+    "@astrojs/tailwind": "5.1.1",
+    "astro": "4.15.9",
+    "localforage": "1.10.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.3",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.9",
+    "@types/react-dom": "18.3.0",
+    "cheerio": "1.0.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-astro": "0.14.1",
+    "workbox-build": "7.1.1"
+  },
+  "keywords": [
+    "amateur-radio",
+    "ham-radio",
+    "q-codes",
+    "phonetic-alphabet",
+    "study-app",
+    "flashcards",
+    "pwa"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Piotrof/RadioExamHelper.git"
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "code": "QRA",
+    "meaning": "Jak nazywa się Twoja stacja?"
+  },
+  {
+    "code": "QRB",
+    "meaning": "Jaka jest odległość między naszymi stacjami?"
+  },
+  {
+    "code": "QRG",
+    "meaning": "Czy możesz podać moją dokładną częstotliwość?"
+  },
+  {
+    "code": "QRH",
+    "meaning": "Czy moja częstotliwość się zmienia?"
+  },
+  {
+    "code": "QRI",
+    "meaning": "Jaka jest barwa mojej emisji?"
+  },
+  {
+    "code": "QRK",
+    "meaning": "Jaka jest zrozumiałość moich sygnałów?"
+  },
+  {
+    "code": "QRL",
+    "meaning": "Czy jesteś zajęty?"
+  },
+  {
+    "code": "QRM",
+    "meaning": "Czy mam zakłócenia od innych stacji?"
+  },
+  {
+    "code": "QRN",
+    "meaning": "Czy mam zakłócenia atmosferyczne?"
+  },
+  {
+    "code": "QRO",
+    "meaning": "Czy mam zwiększyć moc nadajnika?"
+  },
+  {
+    "code": "QRP",
+    "meaning": "Czy mam zmniejszyć moc nadajnika?"
+  },
+  {
+    "code": "QRQ",
+    "meaning": "Czy mam nadawać szybciej?"
+  },
+  {
+    "code": "QRS",
+    "meaning": "Czy mam nadawać wolniej?"
+  },
+  {
+    "code": "QRT",
+    "meaning": "Czy mam zaprzestać nadawania?"
+  },
+  {
+    "code": "QRU",
+    "meaning": "Czy masz coś dla mnie?"
+  },
+  {
+    "code": "QRV",
+    "meaning": "Czy jesteś gotowy?"
+  },
+  {
+    "code": "QRX",
+    "meaning": "Kiedy będziesz mnie ponownie wzywał?"
+  },
+  {
+    "code": "QRZ",
+    "meaning": "Kto mnie woła?"
+  },
+  {
+    "code": "QSA",
+    "meaning": "Jaka jest siła moich sygnałów?"
+  },
+  {
+    "code": "QSB",
+    "meaning": "Czy siła moich sygnałów się zmienia?"
+  },
+  {
+    "code": "QSD",
+    "meaning": "Czy moje znaki są zniekształcone?"
+  },
+  {
+    "code": "QSL",
+    "meaning": "Czy możesz potwierdzić odbiór?"
+  },
+  {
+    "code": "QSO",
+    "meaning": "Czy możesz nawiązać łączność z..."
+  },
+  {
+    "code": "QSP",
+    "meaning": "Czy możesz przekazać depeszę do..."
+  },
+  {
+    "code": "QSY",
+    "meaning": "Czy mam zmienić częstotliwość na..."
+  },
+  {
+    "code": "QTH",
+    "meaning": "Jakie jest Twoje położenie geograficzne?"
+  },
+  {
+    "code": "QTR",
+    "meaning": "Jaka jest dokładna godzina?"
+  }
+]

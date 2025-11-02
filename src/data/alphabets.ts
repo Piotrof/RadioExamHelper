@@ -1,0 +1,127 @@
+// NATO Phonetic Alphabet (ICAO/ITU)
+export const NATO: Record<string, string> = {
+  A: 'Alfa',
+  B: 'Bravo',
+  C: 'Charlie',
+  D: 'Delta',
+  E: 'Echo',
+  F: 'Foxtrot',
+  G: 'Golf',
+  H: 'Hotel',
+  I: 'India',
+  J: 'Juliett',
+  K: 'Kilo',
+  L: 'Lima',
+  M: 'Mike',
+  N: 'November',
+  O: 'Oscar',
+  P: 'Papa',
+  Q: 'Quebec',
+  R: 'Romeo',
+  S: 'Sierra',
+  T: 'Tango',
+  U: 'Uniform',
+  V: 'Victor',
+  W: 'Whiskey',
+  X: 'X-ray',
+  Y: 'Yankee',
+  Z: 'Zulu',
+  '0': 'Zero',
+  '1': 'One',
+  '2': 'Two',
+  '3': 'Three',
+  '4': 'Four',
+  '5': 'Five',
+  '6': 'Six',
+  '7': 'Seven',
+  '8': 'Eight',
+  '9': 'Nine',
+};
+
+// Polish Phonetic Alphabet
+export const POLISH: Record<string, string> = {
+  A: 'Adam',
+  Ą: 'Ądam',
+  B: 'Barbara',
+  C: 'Celina',
+  Ć: 'Ćma',
+  D: 'Dorota',
+  E: 'Edward',
+  Ę: 'Ęta',
+  F: 'Franciszek',
+  G: 'Genowefa',
+  H: 'Henryk',
+  I: 'Irena',
+  J: 'Jadwiga',
+  K: 'Karol',
+  L: 'Leon',
+  Ł: 'Łukasz',
+  M: 'Maria',
+  N: 'Natalia',
+  Ń: 'Ńań',
+  O: 'Olga',
+  Ó: 'Ósemka',
+  P: 'Paweł',
+  Q: 'Quebec',
+  R: 'Roman',
+  S: 'Stefan',
+  Ś: 'Śliwka',
+  T: 'Tomasz',
+  U: 'Urszula',
+  V: 'Victor',
+  W: 'Wanda',
+  X: 'Xawery',
+  Y: 'Ypsilon',
+  Z: 'Zofia',
+  Ź: 'Źrebak',
+  Ż: 'Żaba',
+  '0': 'Zero',
+  '1': 'Jeden',
+  '2': 'Dwa',
+  '3': 'Trzy',
+  '4': 'Cztery',
+  '5': 'Pięć',
+  '6': 'Sześć',
+  '7': 'Siedem',
+  '8': 'Osiem',
+  '9': 'Dziewięć',
+};
+
+// Sample words for practice (Polish and English)
+export const SAMPLE_WORDS_PL = [
+  'WARSZAWA',
+  'KRAKÓW',
+  'GDAŃSK',
+  'WROCŁAW',
+  'POZNAŃ',
+  'ŁÓDŹ',
+  'RADIO',
+  'CZĘSTOTLIWOŚĆ',
+  'NADAJNIK',
+  'ANTENA',
+  'PROPAGACJA',
+  'MODULACJA',
+];
+
+export const SAMPLE_WORDS_EN = [
+  'RADIO',
+  'AMATEUR',
+  'SIGNAL',
+  'FREQUENCY',
+  'TRANSMIT',
+  'RECEIVE',
+  'ANTENNA',
+  'PROPAGATION',
+  'MODULATION',
+  'CALLSIGN',
+];
+
+export type AlphabetType = 'NATO' | 'POLISH';
+
+export function getAlphabet(type: AlphabetType): Record<string, string> {
+  return type === 'NATO' ? NATO : POLISH;
+}
+
+export function getSampleWords(language: 'PL' | 'EN' = 'EN'): string[] {
+  return language === 'PL' ? SAMPLE_WORDS_PL : SAMPLE_WORDS_EN;
+}
