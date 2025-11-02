@@ -1,110 +1,77 @@
 [
-  {
-    "code": "QRA",
-    "meaning": "Jak nazywa się Twoja stacja?"
-  },
-  {
-    "code": "QRB",
-    "meaning": "Jaka jest odległość między naszymi stacjami?"
-  },
-  {
-    "code": "QRG",
-    "meaning": "Czy możesz podać moją dokładną częstotliwość?"
-  },
-  {
-    "code": "QRH",
-    "meaning": "Czy moja częstotliwość się zmienia?"
-  },
-  {
-    "code": "QRI",
-    "meaning": "Jaka jest barwa mojej emisji?"
-  },
-  {
-    "code": "QRK",
-    "meaning": "Jaka jest zrozumiałość moich sygnałów?"
-  },
-  {
-    "code": "QRL",
-    "meaning": "Czy jesteś zajęty?"
-  },
-  {
-    "code": "QRM",
-    "meaning": "Czy mam zakłócenia od innych stacji?"
-  },
-  {
-    "code": "QRN",
-    "meaning": "Czy mam zakłócenia atmosferyczne?"
-  },
-  {
-    "code": "QRO",
-    "meaning": "Czy mam zwiększyć moc nadajnika?"
-  },
-  {
-    "code": "QRP",
-    "meaning": "Czy mam zmniejszyć moc nadajnika?"
-  },
-  {
-    "code": "QRQ",
-    "meaning": "Czy mam nadawać szybciej?"
-  },
-  {
-    "code": "QRS",
-    "meaning": "Czy mam nadawać wolniej?"
-  },
-  {
-    "code": "QRT",
-    "meaning": "Czy mam zaprzestać nadawania?"
-  },
-  {
-    "code": "QRU",
-    "meaning": "Czy masz coś dla mnie?"
-  },
-  {
-    "code": "QRV",
-    "meaning": "Czy jesteś gotowy?"
-  },
-  {
-    "code": "QRX",
-    "meaning": "Kiedy będziesz mnie ponownie wzywał?"
-  },
-  {
-    "code": "QRZ",
-    "meaning": "Kto mnie woła?"
-  },
-  {
-    "code": "QSA",
-    "meaning": "Jaka jest siła moich sygnałów?"
-  },
-  {
-    "code": "QSB",
-    "meaning": "Czy siła moich sygnałów się zmienia?"
-  },
-  {
-    "code": "QSD",
-    "meaning": "Czy moje znaki są zniekształcone?"
-  },
-  {
-    "code": "QSL",
-    "meaning": "Czy możesz potwierdzić odbiór?"
-  },
-  {
-    "code": "QSO",
-    "meaning": "Czy możesz nawiązać łączność z..."
-  },
-  {
-    "code": "QSP",
-    "meaning": "Czy możesz przekazać depeszę do..."
-  },
-  {
-    "code": "QSY",
-    "meaning": "Czy mam zmienić częstotliwość na..."
-  },
-  {
-    "code": "QTH",
-    "meaning": "Jakie jest Twoje położenie geograficzne?"
-  },
-  {
-    "code": "QTR",
-    "meaning": "Jaka jest dokładna godzina?"
-  }
+  { "code": "QAZ", "meaning": "Burza, wyłączam stację" },
+  { "code": "QHL", "meaning": "Przeszukiwanie pasma od największej częstotliwości" },
+  { "code": "QHM", "meaning": "Przeszukiwanie pasma od największej do środkowej częstotliwości" },
+  { "code": "QLH", "meaning": "Przeszukiwanie pasma od najmniejszej częstotliwości" },
+  { "code": "QLM", "meaning": "Przeszukiwanie pasma od najmniejszej do środkowej częstotliwości" },
+  { "code": "QMH", "meaning": "Przeszukiwanie pasma od środkowej do największej częstotliwości" },
+  { "code": "QML", "meaning": "Przeszukiwanie pasma od środkowej do najmniejszej częstotliwości" },
+  { "code": "QQQ", "meaning": "Muszę przerwać łączność, wyjaśnienia później" },
+  { "code": "QRA", "meaning": "Moja stacja nazywa się..." },
+  { "code": "QRAR", "meaning": "Mój adres w callbooku jest dokładny i prawidłowy" },
+  { "code": "QRB", "meaning": "Odległość między naszymi stacjami wynosi ... km" },
+  { "code": "QRD", "meaning": "Zdążamy do... z..." },
+  { "code": "QRE", "meaning": "Przypuszczalnie przybędziemy do ... o ... godzinie" },
+  { "code": "QRF", "meaning": "Wracamy (wracajcie) do ... (miejsce)" },
+  { "code": "QRG", "meaning": "Twoja częstotliwość wynosi..." },
+  { "code": "QRH", "meaning": "Twoja częstotliwość zmienia się, waha" },
+  { "code": "QRI", "meaning": "Twój ton jest: 1. dobry, 2. zmienny, 3. zły" },
+  { "code": "QRJ", "meaning": "Wasze sygnały są bardzo słabe, nieodbieralne" },
+  { "code": "QRK", "meaning": "Czytelność waszych sygnałów wynosi (1...5)" },
+  { "code": "QRL", "meaning": "Jestem zajęty, proszę nie przeszkadzać" },
+  { "code": "QRM", "meaning": "Mam przeszkody w odbiorze, zakłócenia od innych stacji" },
+  { "code": "QRN", "meaning": "Mam zakłócenia atmosferyczne" },
+  { "code": "QRO", "meaning": "Zwiększ moc, duża moc" },
+  { "code": "QRP", "meaning": "Zmniejsz moc, mała moc" },
+  { "code": "QRQ", "meaning": "Nadawaj szybciej" },
+  { "code": "QRR", "meaning": "Jestem gotowy do pracy automatycznej" },
+  { "code": "QRRR", "meaning": "Znak niebezpieczeństwa na lądzie (tylko w ruchu amatorskim)" },
+  { "code": "QRS", "meaning": "Nadawaj wolniej" },
+  { "code": "QRT", "meaning": "Kończę nadawanie, wyłączam stację, przerwij nadawanie!" },
+  { "code": "QRU", "meaning": "Nie mam nic dla ciebie" },
+  { "code": "QRV", "meaning": "Jestem gotów do pracy" },
+  { "code": "QRW", "meaning": "Przekażcie ..., że go wołam na częstotliwości ..." },
+  { "code": "QRX", "meaning": "Proszę poczekać, zawołam was o godzinie ..." },
+  { "code": "QRY", "meaning": "Wasza kolejność jest..." },
+  { "code": "QRZ", "meaning": "Was woła..., kto mnie woła?" },
+  { "code": "QSA", "meaning": "Siła waszych sygnałów wynosi (1...9)" },
+  { "code": "QSB", "meaning": "Siła waszego sygnału waha się" },
+  { "code": "QSD", "meaning": "Błędnie nadajecie CW" },
+  { "code": "QSI", "meaning": "Nie mogłem przerwać waszego nadawania" },
+  { "code": "QSK", "meaning": "Mogę słuchać w przerwach nadawania (BK)" },
+  { "code": "QSL", "meaning": "Potwierdzam, przyślę kartę QSL" },
+  { "code": "QSLL", "meaning": "Wymieńmy wzajemnie nasze karty QSL" },
+  { "code": "QSLN", "meaning": "Nie trzeba wysyłać karty QSL" },
+  { "code": "QSM", "meaning": "Proszę powtórzyć (RPT)" },
+  { "code": "QSN", "meaning": "Słuszałem was na ... kHz" },
+  { "code": "QSO", "meaning": "Łączność, mam połączenie" },
+  { "code": "QSP", "meaning": "Przekażcie komunikat do..." },
+  { "code": "QSQ", "meaning": "Nadawajcie każde słowo jeden raz" },
+  { "code": "QSR", "meaning": "Powtórzcie wasze wywołanie na częstotliwości wywoławczej" },
+  { "code": "QSS", "meaning": "Chcemy używać częstotliwości roboczej ..." },
+  { "code": "QST", "meaning": "Komunikat dla wszystkich" },
+  { "code": "QSU", "meaning": "Nadawajcie na częstotliwości ... kHz" },
+  { "code": "QSUF", "meaning": "Proszę o łączność telefoniczną przewodową" },
+  { "code": "QSV", "meaning": "Nadawajcie V dla strojenia" },
+  { "code": "QSW", "meaning": "Przechodzę na częstotliwość..." },
+  { "code": "QSX", "meaning": "Słucham na częstotliwości..." },
+  { "code": "QSY", "meaning": "Przejdźcie na częstotliwość..." },
+  { "code": "QSZ", "meaning": "Nadawajcie każde słowo dwa razy (lub ... razy)" },
+  { "code": "QTA", "meaning": "Anulujcie radiogram nr... , jak gdyby nie był nadany" },
+  { "code": "QTB", "meaning": "Nie zgadzam się z waszym obliczeniem ilości słów" },
+  { "code": "QTC", "meaning": "Mam dla was wiadomość" },
+  { "code": "QTG", "meaning": "Będziemy nadawali po naszym znaku dwie \"kreski\", każda po 10 sek." },
+  { "code": "QTH", "meaning": "Moje położenie geograficzne to..." },
+  { "code": "QTN", "meaning": "Opuściliśmy to miejsce o ... godzinie" },
+  { "code": "QTR", "meaning": "Dokładny czas jest..." },
+  { "code": "QTS", "meaning": "Będziemy nadawali do pomiarów nasz sygnał wywoławczy przez ... minut" },
+  { "code": "QTT", "meaning": "Sygnał rozpoznawczy który nastąpi jest nałożony na inną transmisję" },
+  { "code": "QTU", "meaning": "Pracuję od ... do ..." },
+  { "code": "QTV", "meaning": "Nasłuchujcie za nas na częstotliwości ... ( od ... do ... godziny)" },
+  { "code": "QTX", "meaning": "Będziemy w pogotowiu do dalszej łączności z wami" },
+  { "code": "QUA", "meaning": "Przekazuję wiadomość od ..." },
+  { "code": "QUB", "meaning": "Oto żądane wiadomości ..." },
+  { "code": "QUH", "meaning": "Ciśnienie barometryczne wynosi ..." },
+  { "code": "QUM", "meaning": "Mogę już podjąć normalną pracę" },
+  { "code": "QWX", "meaning": "Stan pogody" }
 ]
