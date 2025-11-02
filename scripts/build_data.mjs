@@ -16,7 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Zod schemas (mirrored from src/lib/data.ts)
 const QCodeSchema = z.object({
-  code: z.string().regex(/^Q[A-Z]{2}$/),
+  code: z.string().regex(/^Q[A-Z]{2,4}$/),
   meaning: z.string().min(1),
 });
 
